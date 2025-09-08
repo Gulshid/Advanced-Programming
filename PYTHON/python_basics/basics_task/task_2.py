@@ -155,6 +155,80 @@ print(f'Empty List to Boolean :{empty_list_bool}')
 print(f'Non-Empty List to Boolean :{full_list_bool}')
 
 
+# 5. Converting to List (list())
+print("==========CONVERTING TO LIST===============")
+# From string to list (each character becomes an item)
+name='Python'
+name_list=list[name]
+print(f'String {name} to List {name_list}')
+
+
+# From tuple to list
+colors_tuple=('red', 'green', 'blue')
+color_list=list(colors_tuple)
+print(f" Tuple {colors_tuple} to List {color_list}")
+
+
+
+# From range to list
+number_range=range(5)
+number_list=list(number_range)
+print(f'Range {number_range} to List {number_list}')
+
+
+# 6. Converting to Tuple (tuple())
+print("==========CONVERTING TO TUPLE===============")
+# From list to tuple
+fruite=["apple", "banana", "cherry"]
+fruite_tuple=tuple(fruite)
+print(f'List {fruite} to Tuple {fruite_tuple}')
+
+
+# From string to tuple
+word="hello"
+word_tuple=tuple(word)
+print(f" String {word} To Tuple {word_tuple} ")
+
+
+# 7. Converting to Set (set())
+print("==========CONVERTING TO SET===============")
+# From list to set (removes duplicates)
+number_with_duplicate=[1,2,2,3,4,4,5]
+unique_number=set(number_with_duplicate)
+print(f'List {number_with_duplicate} to Set {unique_number}')
+
+
+# From string to set (unique characters only)
+word='Programming'
+unique_char=set(word)
+print(f'String {word} to Set {unique_char}')
+
+
+# Simple integer input
+age=int(input("Enter your Age:"))
+print(f'You are {age} year old')
+print(f'Type of age is {type(age)}')
+
+# Getting multiple integers in one line
+numbers=input('Enter three number separated by spaces:')
+# Split the input and convert each to integer
+num_list = [int(x) for x in numbers.split()]
+print(f'You entered : {num_list}')
+
+# Alternative: specify how many numbers you want
+count=3
+print(f'Please Enter {count} number ')
+numbers=[]
+for i in range(count):
+    num = int(input(f'Number {i+1}:'))
+    numbers.append(num)
+    print(f'Your numbers: {numbers}')
+
+
+
+
+
+
 
 
 
