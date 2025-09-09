@@ -223,13 +223,61 @@ for i in range(count):
     num = int(input(f'Number {i+1}:'))
     numbers.append(num)
     print(f'Your numbers: {numbers}')
+    
+    
+    
+1.Example  Calculator
+print('===========Simple Calculator=============')
+num1=int(input('Enter first number:'))
+num2=int(input('Enter second number:'))
+print(f'{num1 + num2} = {num1 + num2}')
+print(f'{num1 - num2} = {num1 - num2}')
+print(f'{num1 * num2} = {num1 * num2}')
+if(num2!=0):
+    print(f'{num1} / {num2} = {num1 / num2}')
+else:
+    print("Cannot divide by zero")
+    
+    
+# Example 2: Grade calculator
+print('===========Grade Calculator=============')
+math=int(input('Enter math score:'))
+science=int(input('Enter science score:'))
+english=int(input('Enter english score:'))
+average=(math+science+english)/3
+print(f" The Average Score is {average:.2f}")
 
+Example 3: Number guessing game
+import random
+print('===========Number Guessing Game =============')
+secret_num = random.randint(1, 10)
+guess_num=int(input('Guess the number between 1 and 10:'))
+if(guess_num==secret_num):
+    print(" Congratulation! You Guessed It ")
+else:
+    print(f"Sorry! The Number {secret_num} was Not match")
+    
+    
+try:
+    a=int(input('Enter first number:'))
+    b=int(input('Enter second number:'))
+    
+    print(f' {a} + {b} = {a+b}')
+    print(f' {a} - {b} = {a-b}')
+    print(f' {a} * {b} = {a*b}')
+    if(b!=0):
+        print(f' {a} / {b} = {a/b}')
+    else:
+        print('Cannot divide by Zero')
+except ValueError:
+    print("Please ! Enter valid Number:")
 
-
-
-
-
-
-
-
-
+try:
+    math=int(input('Enter math score:'))
+    science=int(input('Enter science score:'))
+    english=int(input('Enter english score:'))
+    average=(math+science+english)/3
+    print(f" The Average Score is {average:.2f}")
+    
+except ValueError:
+    print("Please ! Enter Numeric  Score:")
