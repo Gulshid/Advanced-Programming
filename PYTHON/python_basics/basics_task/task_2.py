@@ -4,7 +4,6 @@ age=int(input("What's your Age:"))
 print(f' My Name is : {name} and my Age is : {age}')
 print(f'Next year {name} you will be ', age+1, "year old\n")
 
-
 # Working with different data types
 favorite_color='blue'
 heigth=5.10
@@ -226,7 +225,7 @@ for i in range(count):
     
     
     
-1.Example  Calculator
+# 1.Example  Calculator
 print('===========Simple Calculator=============')
 num1=int(input('Enter first number:'))
 num2=int(input('Enter second number:'))
@@ -247,7 +246,7 @@ english=int(input('Enter english score:'))
 average=(math+science+english)/3
 print(f" The Average Score is {average:.2f}")
 
-Example 3: Number guessing game
+# Example 3: Number guessing game
 import random
 print('===========Number Guessing Game =============')
 secret_num = random.randint(1, 10)

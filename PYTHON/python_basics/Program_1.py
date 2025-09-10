@@ -32,3 +32,9 @@ print('Type is :', type(set_value)),
 print('Type is :', type(list_value)),
 print('Type is :', type(tuple_value)),
 print('Type is :', type(dict_value)),
+
+# comments in Python
+# This is single line comments
+'''
+This is multi line comments
+'''
