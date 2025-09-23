@@ -44,7 +44,7 @@ wind_speed = float(input("Enter wind speed (km/h): "))
 # Base message based on temperature
 if temp < 0:
     message = "Extreme cold warning"
-elif 0 <= temp <= 10:
+elif 0 <= temp <= 10: 
     message = "Cold weather"
 elif 11 <= temp <= 25:
     message = "Pleasant weather"
@@ -65,7 +65,6 @@ print("Weather Advisory:", message)
 
 
 # Problem 4: Shopping Discount Calculator
-
 membership = input("Enter membership level (gold/silver/bronze/none): ").strip().lower()
 purchase = float(input("Enter purchase amount: "))
 

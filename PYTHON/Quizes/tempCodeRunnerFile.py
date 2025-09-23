@@ -1,0 +1,1 @@
+  free_days = 2
