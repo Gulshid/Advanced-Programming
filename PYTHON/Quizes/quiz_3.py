@@ -49,6 +49,8 @@ print(f"The factorial of {number} is {fact}")
 # 3 ---> find the prime number of any number 
 # 2,3,5,7,11,13,17,19
 #. only divisable by 1 or itself
+# If we enter 11
+# it check and 11 divide from 2 ---- 10  if anyone divide completely so the number is prime number 
 num = int(input("Enter a number: "))
 is_prime = True  
 
@@ -56,6 +58,8 @@ if num <= 1:
     is_prime = False
 else:
     for i in range(2, num):
+        # there check if any value complete;y divide then it not prime number 
+        # because prime only divide by 1 and itself
         if num % i == 0:
             is_prime = False
             break
