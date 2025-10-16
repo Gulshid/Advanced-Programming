@@ -109,5 +109,3 @@ print(f"The Area of rectangle is : {result}")
 
     
 print(calculate_area.__doc__)
-
-
