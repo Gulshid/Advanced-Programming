@@ -469,5 +469,145 @@
 # while(i<=10):
 #     print(f"{table} X {i} = {table * i}")
 #     i+=1    
+
+
+# Ascending and descending ---USer Control System
+# start = int(input('Enter the starting point :'))
+# end =  int(input('Enter the ending point :'))
+# step =  int(input('Enter the step '))
+
+# current = start
+
+# if step > 0:
+#     while current<= end:
+#         print(current, end= " ")
+#         current+=step
+# else:
+#     while current >= end:
+#         print(current, end = " ")
+#         current-=step
+
+# Guessing Game
+# import random
+
+# rand = random.randint(0,10)
+# attempt = 0
+
+# while True:
+#     guess = int(input('Enter the Guess Value:'))
+#     attempt +=1
+    
+#     if guess > rand:
+#         print("You Enetred very High Value , enter Low value ")
+#     elif guess < rand :
+#         print("You Enetred very Low  Value , enter High value ")
+#     elif guess == rand:
+#         print("COngrate You Guessed the correct value ")
+#         break
+    
+#     print("Attempt :", attempt)
+# print("You Guessed the value in :", attempt)
+
+# find the factorial using loop
+# fact = 1
+# num = int(input('Enter the fact Num :'))
+
+# for i in range (1, num + 1):
+#     fact = fact * i
+# print(f"The factorial of : {num} is {fact}")
+
+# fact = 1
+# num = int(input('Enter the fact Num :'))
+# i  = 1
+# while i <=num:
+#     fact *= i
+#     i+=1
+
+# print(f"The factorial of {num}. is {fact}")
+
+
+# num = int(input('Enter any num :'))
+# if num <=1:
+#     print("There is no prime number for 0 , 1 and negative value ")
+# else:
+#     istrue= True
+#     for i in range(2, num):
+#         if num % i == 0:
+#             istrue = False
+#             break
+    
+#     if istrue:
+#         print("Prime number")
+#     else:
+#         print("Not a Prime Number")        
+
+    
+# fibanocci Series 
+# first = 0
+# second = 1
+# num = int (input("Enter the num :"))
+# if num >= 1:
+#     print(first)
+# if num >= 2:
+#     print(second)
+    
+# for i in range(3,num + 1):
+#     next = first + second
+#     print(next)
+#     first = second
+#     second = next
+
+
+# function 
+# Prime Number fucntion
+# def prime():
+#     num = int(input('Enter a Number:'))
+#     if(num <=1):
+#         print("There is no prime number for 0 1 or negative value ")
+#     else:
+#         isTrue= True
+#         for i in range(2, num):
+#             if num % i == 0:
+#                 isTrue = False
+#                 break
+        
+#         if isTrue:
+#             print('Prime Number ')
+#         else:
+#             print("Not a Prime Number ")
+                
+# prime()
+
+
+
+# factoriall 
+# def fact(num):
+
+#     if num == 0 or num == 1:
+#         return 1
+#     else:
+#         return num * fact(num - 1)
+# n = int (input("Enter the value"))
+# print(fact(n))
     
     
+# fibonocci 
+# def fib(n):
+#     first = 0
+#     second = 1
+   
+#     if n >=1:
+#         print(first,end=" ")
+#     if n >=2:
+#         print(second, end= " ")
+#     for i in range(3, n + 1):
+#         next = first + second
+#         print(next, end= " ")
+#         first = second
+#         second = next
+#     print("\n")
+
+# h = int (input("Enter the value"))
+# fib(h)
+
+
