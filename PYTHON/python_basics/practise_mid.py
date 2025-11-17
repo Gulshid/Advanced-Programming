@@ -595,7 +595,7 @@
 # def fib(n):
 #     first = 0
 #     second = 1
-   
+
 #     if n >=1:
 #         print(first,end=" ")
 #     if n >=2:
@@ -611,3 +611,79 @@
 # fib(h)
 
 
+# num = [1,2,3,34,5]
+# for i in num :
+#     print(i)
+
+
+# a =['apple', 'banana', 'peach']
+# for o in range(len(a)):
+#     print(f"{o} {a}")
+    
+    
+# b = [1,2,3,4,5]
+# for k in range(len(b)):
+#     b[k]+=6
+# print(b)
+
+# student_mxarks=int(input("Enter the student marks: "))
+# if student_mxarks >=500:
+#     grade = 'A+'
+# elif student_mxarks >=400:
+#     grade = 'A'    
+# elif student_mxarks >= 300:
+#     grade = 'B'
+# elif student_mxarks >= 200:
+#     grade = 'C'
+# elif student_mxarks >=100:
+#     grade = 'D'
+# else:
+#     grade = 'E'
+# print(f"the student marls {student_mxarks} and grade {grade}")
+
+
+# for i in range(1, 21, 2):
+#     print(i, end= " ")
+# print("\n")
+
+# fact = 1
+# num = int (input("Enter the value :"))
+# for i in range(1,num+1):
+#     if num == 0 or num == 1:
+#         print("1")
+#     elif num < 0:
+#         print("There is no fact fornnragtive value ")
+#     else:
+#         fact = fact * i
+#         print(f"The fact of {num} is {fact} ")\
+    
+    
+
+
+# fact = 1
+# num = int(input('Enter the value :'))
+# if num <0:
+#     print("There is no fact for negative value ")
+# elif num == 0 or num == 1:
+#     print(f"The fact if {num} is 1")
+# else:
+#     for i in range(1, num + 1):
+#         fact = fact * i
+#     print(f"The fact of {num} is {fact}")   
+
+
+# def fact(n):
+#     if n <0:
+#         return "There is no fact fr negative number:"
+#     elif n == 0 or n == 1:
+#         return 1
+#     else:
+#         return n * fact(n - 1)
+    
+
+# num = int(input('Enter the value :'))
+# print(fact(num))
+
+
+
+    
