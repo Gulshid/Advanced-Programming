@@ -74,8 +74,8 @@ print("Reshape to 3 X 4 :", reshape)
 print("Flattend : ",flattened )
 
 
-Program 2: Advanced NumPy Operations
-Mathematical Operations
+# Program 2: Advanced NumPy Operations
+# Mathematical Operations
 
 data = np.array([
     [1,2,3],
