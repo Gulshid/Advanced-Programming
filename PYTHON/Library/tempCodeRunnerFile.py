@@ -1,1 +1,1 @@
-arr_11 = ([1,2,3], [4,5,6])
+inv_A = np.linalg.inv(A)

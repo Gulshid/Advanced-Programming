@@ -1,4 +1,5 @@
 import numpy as np
+# program NO 1
 # 1D array
 lits_2 = [1,2,3,3]
 # method 1
@@ -82,5 +83,7 @@ flattened = reshape_arr.flatten()
 print("flat_arr :", flat_arr)
 print("reshape arr :\n", reshape_arr)
 print("flattened arr :", flattened)
+
+
 
 
