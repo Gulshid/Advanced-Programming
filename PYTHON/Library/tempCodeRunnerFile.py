@@ -1,1 +1,0 @@
-inv_A = np.linalg.inv(A)
